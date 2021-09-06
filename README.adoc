@@ -1,0 +1,6 @@
+= sKaiNet
+
+Simple implementation of **predict** function of a simple neural network implemented in plain Kotlin
+
+This is a companion code to the article written in german https://mydoag.doag.org/formes/pubfiles/13377179/docs/Publikationen/Java-Aktuell/2021/04-2021/04_2021-Java_aktuell-Michal_Harakal-Grundlagen_der_Datenwissenschaft_und_kuenstliche_Intelligenz_fuer_JVM-Entwickler.pdf[Grundlagen der Datenwissenschaft und künstliche Intelligenz für JVM-Entwickler] published in magazin https://www.ijug.eu/de/java-aktuell/zeitschrift/[Java aktuell 4/2021]
+
