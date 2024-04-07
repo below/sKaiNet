@@ -98,9 +98,12 @@ fun Matrix.add(scalar: Double): Matrix = this.map { row ->
 }
 
 fun Matrix.add(matrix: Matrix): Matrix {
+    if (this.shape() != matrix.shape()) {
+        throw Exception("Matrixes don't match")
+    }
     return this.mapIndexed { i, row ->
         row.mapIndexed { j, cell ->
-            cell + matrix[i][0]
+            cell + matrix[i][j]
         }
     }
 }
