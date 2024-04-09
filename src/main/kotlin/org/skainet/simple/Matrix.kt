@@ -55,8 +55,6 @@ fun Matrix.print() {
             }
             print(parentheisChar + " ")
             print(col)
-            if (j < row.size - 1) {
-            }
         }
         if (multirow) {
             if (i == 0) {
